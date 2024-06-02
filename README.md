@@ -25,7 +25,6 @@ API
 
 10. Uses the provided TMDb API key.
 11. Fetches movies for a specific year with at least 100 votes, sorted by popularity.
-Genre Filter
 12. Allows users to filter movies by genre.
 13. Fetches genres from the TMDb API and shows them as filters.
 14. Displays a fresh list of movies for the selected genres.
@@ -63,8 +62,8 @@ code : npm install Or using yarn : yarn install
 Create a .env file in the root directory and add your TMDb API key:
 
 env
-Copy code
-REACT_APP_TMDB_API_KEY = your_api_key_here
+code : REACT_APP_TMDB_API_KEY = your_api_key_here
+
 Running the Application
 Start the development server:
 
