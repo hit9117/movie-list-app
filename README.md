@@ -10,7 +10,7 @@ Loading indicators to show data fetching status.
 Error handling and notifications using react-hot-toast.
 
 
-Requirements - COVERED 
+Requirements - COVERED
 
 1. Layout and UI
 2. Custom UI components created with React.
@@ -20,7 +20,7 @@ Requirements - COVERED
 6. Loads a total of 20 movies for each year.
 7. On initial load, displays movies from the year 2012.
 8. Smooth scrolling behavior to load more movies as the user scrolls up or down.
-   
+
 API
 
 10. Uses the provided TMDb API key.
@@ -50,45 +50,32 @@ Installation
 Clone the repository:
 
 bash
-Copy code
-git clone https://github.com/hit9117/movie-explorer.git
-cd movie-explorer
+code :  git clone https://github.com/hit9117/movie-list-app.git
+cd movie-list-app
 
 Install dependencies:
 
 Using npm:
 
 bash
-Copy code
-npm install
-Or using yarn:
+code : npm install Or using yarn : yarn install
 
-bash
-Copy code
-yarn install
 Create a .env file in the root directory and add your TMDb API key:
 
 env
 Copy code
-REACT_APP_TMDB_API_KEY=your_api_key_here
+REACT_APP_TMDB_API_KEY = your_api_key_here
 Running the Application
 Start the development server:
 
 Using npm:
 
 bash
-Copy code
-npm start
-Or using yarn:
+Code : npm start Or  yarn start
 
-bash
-Copy code
-yarn start
 Open your browser and navigate to:
 
-arduino
-Copy code
-http://localhost:3000
+code :  http://localhost:3000
 
 Project Structure
 
@@ -108,31 +95,8 @@ npm run eject or yarn eject: Ejects the Create React App configuration. Use with
 Testing
 The project uses Jest and React Testing Library for testing.
 
-Running Tests
-To run tests, use the following command:
 
-bash
-Copy code
-npm test
-Deployment
-The project can be deployed to any static site hosting service like Vercel, Netlify, or GitHub Pages.
 
-Example: Deploy to Vercel
-Install Vercel CLI:
-
-bash
-Copy code
-npm install -g vercel
-Deploy:
-
-bash
-Copy code
-vercel
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any bugs or feature requests.
-
-License
-This project is licensed under the MIT License.
 
 Acknowledgements
 The Movie Database (TMDb) for providing the movie data API.
